@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "Tokan"
+bot_token = "417449492:AAE_BRzX6NZJIaqhB7vByrz4jGcF9ZY4NNk"
 send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 377450049
+sudo_id = 194225227
 http = require('socket.http')
 https = require('ssl.https')
 URL = require('socket.url')
@@ -184,17 +184,17 @@ if not tostring(SUDO):match('%d+') then
     enabled_plugins = {
     "MRCore"
     },
-    sudo_users = {377450049, SUDO},--Sudo users
+    sudo_users = {194225227, SUDO},--Sudo users
     master_id = SUDO, 
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[*》MaTaDoR Api V1.0*
+    info_text = [[*》Star Api V1.0*
 *》Admins :*
-*》Founder & Developer :* [MahDiRoO](Telegram.Me/MahDiRoO)
+*》Founder & Developer :* [Amirhosein](Telegram.Me/IRSecurityTG)
 
 *》Our channel :*
-》[MaTaDoRTeaM](Telegram.Me/matadorteam)
+》[TeleStarTeaM](Telegram.Me/TeleStarteam)
 ]],
   }
   serialize_to_file(config, './data/config.lua')
